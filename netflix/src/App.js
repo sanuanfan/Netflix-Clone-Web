@@ -10,6 +10,9 @@ function App() {
       <Banner/>
       <FilmList />
       <FilmList/>
+      <FilmList/><FilmList/>
+      <FilmList/>
+      <FilmList/>
     </div>
   );
 }
