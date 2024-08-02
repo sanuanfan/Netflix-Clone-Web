@@ -17,19 +17,19 @@
     position: fixed;
     right: 10px;
     color: white;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 10px;
 }
 .navbartitle{
     position: fixed;
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 550px;
     margin-top: 15px;
     left: 250px;
 }
 .navbartitle a{
-    color: rgba(255, 255, 255, 0.763);
-    font-size: 15px;   
+    color: rgba(255, 255, 255, 0.91);
+    font-size: 17px;   
     text-decoration: none; 
 }
