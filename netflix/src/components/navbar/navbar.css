@@ -1,8 +1,9 @@
 .navbar {
-    height: 45px;
+    height: 55px;
     background-color: black;
-    padding: 10px;
+    padding-top: 10px;
     position: fixed;
+    z-index: 1;
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -18,7 +19,6 @@
     right: 10px;
     color: white;
     font-size: 28px;
-    margin-top: 10px;
 }
 .navbartitle{
     position: fixed;

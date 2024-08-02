@@ -1,4 +1,5 @@
 import Banner from './components/banner/banner';
+import FilmList from './components/FilmList/FilmList';
 import NavBar from './components/navbar/navbar';
 
 
@@ -7,6 +8,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner/>
+      <FilmList />
+      <FilmList/>
     </div>
   );
 }

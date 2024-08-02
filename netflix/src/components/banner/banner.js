@@ -12,7 +12,9 @@ function Banner() {
                         <div className='button'id='btn2'><i class='bx bx-plus' ></i><p>MyList</p></div>
                     </div>
                 </div>
-                <div className='fade'></div>
+                <div className='fade'>
+                    {/* <h3>Popular on Netflix</h3> */}
+                </div>
 
             </div>
         </div>
