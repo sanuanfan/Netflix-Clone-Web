@@ -9,9 +9,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner/>
+      <FilmList title = 'Trending' url={trendingurl}/>
+
       <FilmList title = 'Action' url={actionurl}/>
       <FilmList  title = 'Popular on Netflix' url={popularurl}/>
-      <FilmList title = 'Trending' url={trendingurl}/>
       <FilmList title = 'Romance' url={romanceurl}/>
       <FilmList title = 'Comedy' url={comedyurl}/>
       <FilmList title = 'Horror' url={horrorurl} />
