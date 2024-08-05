@@ -34,7 +34,10 @@ function FilmList(props) {
                 console.log('no id found')
             }
         }
-        )
+        ).catch((error) => {
+            console.log("error");
+            
+        })
 
 
 

@@ -13,7 +13,7 @@
 
 .content {
     width: 500px;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 20px;
     margin-bottom: 70px;
     /* margin-top: 50px; */
@@ -90,4 +90,22 @@
     align-items: flex-end;
     width: 100%;
     /* z-index: 1; */
+}
+
+.swipebuttonright {
+    /* margin-bottom: 200px; */
+    /* margin-left: 400px; */
+    position: relative;
+    bottom: 300px;
+    left: 900px;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+.swipebuttonleft{
+    position: relative;
+    font-size: 35px;
+    bottom: 300px;
+    right: 600px;
+    cursor: pointer;
 }
