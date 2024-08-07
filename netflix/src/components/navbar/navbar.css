@@ -29,8 +29,11 @@
     margin-top: 15px;
     left: 250px;
 }
-.navbartitle a{
+.navbartitle button{
     color: rgba(255, 255, 255, 0.91);
     font-size: 17px;   
     text-decoration: none; 
+    background-color: black;
+    border: none;
+    cursor: pointer;
 }

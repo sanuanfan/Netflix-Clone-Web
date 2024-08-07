@@ -15,7 +15,7 @@ function FilmList(props) {
 
         })
 
-    }, [])
+    }, [props.url])
     const opts = {
         height: '390',
         width: '500',
@@ -27,7 +27,7 @@ function FilmList(props) {
         console.log(id);
         axios.get(`movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then((response) => {
             console.log(response.data);
-            if (response.data.results.length != 0) {
+            if (response.data.results.length !== 0) {
                 setVideourl(response.data.results[0])
 
             } else {
